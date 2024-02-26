@@ -1,0 +1,76 @@
+.listContainerCompnonet {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgList {
+    border-radius: 10px;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgPoistion {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #F6C768;
+    border-radius: 10px;
+    padding: 3px 10px;
+    color: #1B1D1F;
+}
+
+.textContianer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.voting {
+    display: flex;
+}
+
+.nameText {
+    color: #FEF7EE !important;
+}
+
+.priceText {
+    background-color: #BEE3CC;
+    padding: 5px;
+    border-radius: 5px;
+    color: black !important;
+}
+
+.voting p {
+    color: #FEF7EE !important;
+}
+
+.voting p span {
+    color: #6F757C;
+}
+
+.grid-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .grid-Container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; /* Adjust the gap for smaller screens */
+    }
+
+    /* Additional responsive adjustments for other elements if needed */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    .grid-Container {
+        grid-template-columns: 1fr;
+        gap: 10px; /* Adjust the gap for even smaller screens */
+    }
+
+    /* Additional responsive adjustments for other elements if needed */
+}

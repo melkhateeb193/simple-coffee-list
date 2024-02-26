@@ -1,0 +1,26 @@
+.listContainer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1D1F;
+    border-radius: 10px;
+
+
+}
+.listContainer p {
+    text-align: center;
+    color: #6F757C;
+}
+.firstBtn,.secondBtn{
+    border: none;
+    color: white;
+    padding: 10px;
+    background-color: transparent;
+}
+.firstBtn:focus , .secondBtn:focus{
+    border-radius: 10px;
+    background-color: #6F757C;
+
+}
